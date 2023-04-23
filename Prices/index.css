@@ -223,7 +223,7 @@ section:hover {
 
 section {
   transition: transform 400ms;
-  animation: custom-name 700ms backwards
+  animation: custom-name 700ms backwards var(--delay);
 }
 
 @keyframes custom-name { /* de 0 a 100 */

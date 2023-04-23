@@ -147,12 +147,12 @@ li i.ph-info {
   padding-top: 32px;
 }
 
-.ultimate {
+section.best {
   margin-top: 16px;
   position: relative;
 }
 
-.ultimate::before {
+section.best::before {
   content: "MAIS VANTAJOSO";
   font-weight: 700;
   font-size: 12px;

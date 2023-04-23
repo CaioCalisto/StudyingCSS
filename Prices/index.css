@@ -172,3 +172,38 @@ section.best::before {
   /* só é possivel usar isto por causa to position relative */
   top: -17px;
 }
+
+.ultimate .inner {
+  padding-top: 40px;
+  background-color: var(--color-gray-900);
+}
+
+.ultimate .title,
+.ultimate .price {
+  color: var(--color-gray-50)
+}
+
+.inner p {
+  color: var(--color-purple-100)
+}
+
+button.secondary {
+  background-color: var(--color-purple-100);
+  color: var(--color-white)
+}
+
+button.secondary:hover {
+  background-color: var(--color-purple-200);
+}
+
+.ultimate ul {
+  border-color: var(--color-gray-700);
+}
+
+.ultimate li span {
+  color: var(--color-gray-300)
+}
+
+.ultimate li .ph-info {
+  color: var(--color-gray-500)
+}

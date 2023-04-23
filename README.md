@@ -1,1 +1,1 @@
-# StudyingCSS
+# Studying CSS

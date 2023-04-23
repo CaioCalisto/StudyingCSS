@@ -207,3 +207,28 @@ button.secondary:hover {
 .ultimate li .ph-info {
   color: var(--color-gray-500)
 }
+
+/* Transition animation */
+section .inner:hover {
+  border-color: var(--color-purple-100);
+}
+
+section .inner {
+  transition: border 500ms;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+section {
+  transition: transform 400ms;
+  animation: custom-name 700ms backwards
+}
+
+@keyframes custom-name { /* de 0 a 100 */
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}

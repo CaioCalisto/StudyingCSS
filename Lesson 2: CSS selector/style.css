@@ -1,9 +1,22 @@
 * {
+  border: 3px solid black
+}
+
+html {
+  font-size: 40px;
+}
+
+/* este font-size sobrepoe o html font-size */
+body {
+  font-size: 22px;
+}
+
+main {
   font-family: monospace;
 }
 
-body {
-  font-size: 22px;
+button, input, textarea {
+  font: inherit
 }
 
 h1, 
@@ -13,6 +26,13 @@ h2 {
 
 p {
   color: purple;
+}
+
+/* este segundo p sobrepoe o anterior 
+   esta técnica não sobrepoe um class
+*/
+p {
+  color: green;
 }
 
 p span {

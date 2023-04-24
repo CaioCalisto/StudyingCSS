@@ -1,0 +1,35 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  font-size: 22px;
+}
+
+h1, 
+h2 {
+  color: blue
+}
+
+p {
+  color: purple;
+}
+
+p span {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.font-color-gray {
+  color: gray;
+}
+
+/* it's not recommended to use ID like this */
+#using-id {
+  font-style: italic;
+}

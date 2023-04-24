@@ -8,7 +8,11 @@ body {
   font-size: 2rem;
 }
 
-input,
+/* input,
 button {
   font: inherit;
+} */
+
+p {
+  text-decoration: line-through;
 }

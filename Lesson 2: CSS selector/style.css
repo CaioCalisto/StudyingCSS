@@ -9,6 +9,8 @@ html {
 /* este font-size sobrepoe o html font-size */
 body {
   font-size: 22px;
+  line-height: 1.5;
+  background: papayawhip;
 }
 
 main {
@@ -27,6 +29,14 @@ h2 {
 p {
   color: purple;
 }
+
+/*
+se usarmos o !important, este purple vai sobrepor TUDO que vier abaixo
+não é recomendado usar isto
+p {
+  color: purple!important;
+}
+*/
 
 /* este segundo p sobrepoe o anterior 
    esta técnica não sobrepoe um class

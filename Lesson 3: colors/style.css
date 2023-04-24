@@ -1,0 +1,14 @@
+body {
+  font-size: 22px;
+  line-height: 1.5;
+  background: papayawhip;
+  color: rgb(255,0 ,0);
+}
+
+p {
+  /*
+  ultimo parametro é transparencia
+  color: rgba(0, 0, 0, 1);
+  */
+  color: #222020;
+}

@@ -11,6 +11,7 @@ a {
   text-decoration: underline;
   cursor: pointer;
   color:rgb(11, 205, 5);
+  opacity: 0.5;
 }
 
 a:visited {

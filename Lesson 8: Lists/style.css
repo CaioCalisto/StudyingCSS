@@ -2,3 +2,26 @@ body {
   padding: 5% 10%;
   font-size: 1.5rem;
 }
+
+ol {
+  list-style-type: lower-alpha;
+  /* padding: 0; */
+}
+
+ul {
+  list-style-type: square;
+  text-align: center;
+  /* list-style-position: outside; */
+  color: blue;
+  /* list-style-image: url('../file_path.png'); */
+}
+
+/* it overrides everything
+li {
+  color: red
+}
+*/
+
+ul li:nth-child(2) {
+  color: red
+}

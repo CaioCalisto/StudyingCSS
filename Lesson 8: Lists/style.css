@@ -25,3 +25,13 @@ li {
 ul li:nth-child(2) {
   color: red
 }
+
+/* apenas os marcadores dos itens */
+::marker {
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+
+ul li:nth-child(2)::marker {
+  content: "ONLY 5 $"
+}

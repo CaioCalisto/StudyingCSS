@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+  font-family: 'Amatic SC', cursive;
+  padding: 10%;
+  font-size: 2rem;
+}
+
+a {
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+  color:rgb(11, 205, 5);
+}
+
+a:visited {
+  color: rgb(234, 6, 40)
+}
+
+a:hover {
+  color: dodgerblue
+}
+
+/* quando é clicado */
+a:active {
+  color: orange
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  /* grid-auto-flow: column; */
+  /* grid-template-columns: 200px 100px 200px; */
+  /* grid-template-columns: 2fr 1fr 1fr; */
+  /* grid-template-columns: 200px 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr 2fr);
+  /* grid-auto-rows: 200px; */
+  grid-auto-rows: minmax(100px, auto);
+  min-height: 400px;
+}
+
+.box {
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+}

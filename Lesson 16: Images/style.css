@@ -1,3 +1,4 @@
+/* Begin reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,19 @@
 img {
   display: block; /* isso faz  a imagem ocupar a linha toda */
 }
+/* End reset */
+
+/* Utility classes*/
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  /* left: -1000px; */
+}
+
+/* End Utility classes*/
 
 body {
   min-height: 100vh;
@@ -24,6 +38,26 @@ body {
 }
 
 /* Profile, Figure */
+
+.hero {
+  border-bottom: 2px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: rgb(251, 210, 156);
+  background-image: url('images/pat1.png');
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat-x;
+}
+
+.h1 {
+  font-size: 500%;
+  color: #fff;
+}
+
 .profile-pix-figure {
   width: 35%;
 }

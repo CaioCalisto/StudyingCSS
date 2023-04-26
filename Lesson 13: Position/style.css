@@ -49,3 +49,12 @@ body {
   top: 10px;
   left: 10px;
 }
+
+.fixed {
+  /* nao é afetado por nada
+     é ótimo para menu que nao se mexe
+   */
+  background-color: green;
+  position: fixed;
+  top: 100px;
+}

@@ -31,8 +31,10 @@ body {
 
 .box:first-child{
   background-color: blue;
-  grid-column-start: 2;
+  /* grid-column-start: 2; se eu usar 2 o conteudo comeca na 2a coluna */
+  grid-column-start: 1;
   grid-column-end: 4;
 
-  
+  grid-row-start: 1;
+  grid-row-end: 3;
 }

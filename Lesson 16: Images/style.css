@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block; /* isso faz  a imagem ocupar a linha toda */
+}
+
 body {
   min-height: 100vh;
 }
@@ -17,4 +21,17 @@ body {
 .example img {
   width: 25%;
   height: auto;
+}
+
+/* Profile, Figure */
+.profile-pix-figure {
+  width: 35%;
+}
+
+.profile-pix-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
 }

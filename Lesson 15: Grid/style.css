@@ -18,6 +18,8 @@ body {
   /* grid-auto-rows: 200px; */
   grid-auto-rows: minmax(100px, auto);
   min-height: 400px;
+
+  gap: 1em;
 }
 
 .box {
@@ -25,4 +27,12 @@ body {
   color: #fff;
   font-size: 2rem;
   padding: 0.5rem;
+}
+
+.box:first-child{
+  background-color: blue;
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  
 }

@@ -24,7 +24,7 @@ body {
 }
 
 .box {
-  min-width: 100px;
+  /* min-width: 100px; */
   height: 100px;
   background-color: #000;
   color: #fff;
@@ -34,5 +34,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
+  flex-basis: 100px; /* isto entre no lugar no min-width */
+  flex-grow: 5; /* pega o resto do container */
+}
+
+.box:nth-child(2) {
+  flex-grow: 1;
 }

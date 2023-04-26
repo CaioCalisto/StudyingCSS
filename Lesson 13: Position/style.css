@@ -40,6 +40,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
+  z-index: 1;
 }
 
 .relative {
@@ -57,4 +58,5 @@ body {
   background-color: green;
   position: fixed;
   top: 100px;
+  left: 250px;
 }

@@ -14,6 +14,7 @@ body {
   width: 75vw;
   height: 85vh;
   margin: 40px auto;
+  position: relative;
 }
 
 .inner-container {
@@ -29,4 +30,14 @@ body {
   height: 150px;
   color: #fff;
   padding: 1rem;
+}
+
+.absolute {
+  background-color: #00ff;
+  /* se o box anterior é relative, então este será considerado
+     caso contrario, este absolute irá ser aplicado em relacao à pagina
+  */
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }

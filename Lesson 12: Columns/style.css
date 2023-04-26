@@ -33,3 +33,8 @@ body {
   color: #333;
   column-span: all;
 }
+
+nowrap {
+  /* this text will be in the same line */
+  white-space: nowrap;
+}

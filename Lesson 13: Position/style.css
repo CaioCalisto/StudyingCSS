@@ -60,3 +60,9 @@ body {
   top: 100px;
   left: 250px;
 }
+
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}

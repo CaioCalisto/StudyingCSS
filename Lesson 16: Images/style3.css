@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: aliceblue;
+}
+
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url("images/scenic-2200x1331.png");
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.353);
+}

@@ -51,14 +51,16 @@ header {
   top: 0;
 }
 
-nav a:link,
-nav a:visited {
+nav :is(a:link, a:visited) {
   color: #000;
 }
 
-nav a:hover,
-nav a:focus {
+nav :is(a:hover, a:focus) {
   color: hsla(0, 0%, 20%, 0.6);
+}
+
+nav :is(a:active) {
+  color:red;
 }
 
 main {

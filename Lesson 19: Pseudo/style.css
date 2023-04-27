@@ -30,8 +30,7 @@ body {
   flex-direction: column;
 }
 
-header,
-footer {
+:where(header, footer, .card) {
   position: sticky;
   background-color: #1e293b;
   color: whitesmoke;
@@ -49,6 +48,7 @@ nav {
 
 header {
   top: 0;
+  color:red;
 }
 
 nav a:any-link {

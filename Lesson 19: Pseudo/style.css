@@ -51,7 +51,7 @@ header {
   top: 0;
 }
 
-nav :is(a:link, a:visited) {
+nav a:any-link {
   color: #000;
 }
 

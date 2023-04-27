@@ -30,7 +30,7 @@ body {
   flex-direction: column;
 }
 
-:where(header, footer, .card) {
+header, footer {
   position: sticky;
   background-color: #1e293b;
   color: whitesmoke;
@@ -87,6 +87,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.card:target {
+  border: 2px solid rebeccapurple;
 }
 
 .card figure {

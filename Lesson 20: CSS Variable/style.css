@@ -87,6 +87,10 @@ footer {
 }
 
 /* || FEATURES */
+.square--highlight {
+  --SQUARE-BGCOLOR: cornflowerblue;
+}
+
 .square {
   background-color: var(--SQUARE-BGCOLOR);
   width: var(--SQUARE-SIZE);
@@ -95,4 +99,6 @@ footer {
   border-radius: 15px;
   display: grid;
   place-content: center;
+  font-size: var(--FS-XL);
+  box-shadow: var(--SHADOWS);
 }

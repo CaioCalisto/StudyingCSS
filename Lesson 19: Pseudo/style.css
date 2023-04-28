@@ -131,12 +131,24 @@ footer {
   display: block;
 }
 
+.card p {
+  position: relative;
+}
+
 .card p::before {
   content: open-quote;
+  font-size: 3em;
+  position: absolute;
+  top: -0.25em;
+  left: -0.5em;
 }
 
 .card p::after {
   content: close-quote;
+  font-size: 3em;
+  position: absolute;
+  top: -0.25em;
+  right: -0.5em;
 }
 
 /*  SMALL */

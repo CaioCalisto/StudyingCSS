@@ -125,10 +125,14 @@ footer {
   text-align: center;
 }
 
-.card figcaption::before {
+.card figcaption::after {
   /* content: ' hello'; */
   content: '✨';
   display: block;
+}
+
+.card figcaption::first-line {
+  font-size: 3rem; 
 }
 
 .card p {

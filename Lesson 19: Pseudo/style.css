@@ -125,8 +125,18 @@ footer {
   text-align: center;
 }
 
-.card figcaption::after {
-  content: ' hello';
+.card figcaption::before {
+  /* content: ' hello'; */
+  content: '✨';
+  display: block;
+}
+
+.card p::before {
+  content: open-quote;
+}
+
+.card p::after {
+  content: close-quote;
 }
 
 /*  SMALL */

@@ -41,6 +41,16 @@
   }
 }
 
+html.dark-mode {
+  /* Override :root styles for dark mode */
+  --BGCOLOR: #000;
+  --ALT-BGCOLOR: #333;
+  --RADIAL-COLOR: rgb(217, 217, 217);
+  --SQUARE-BGCOLOR: rgb(202, 174, 202);
+  background-color: var(--BGCOLOR);
+  color: #fff;
+}
+
 /* || GENERAL STYLES */
 body {
   font: var(--FS) var(--FF);

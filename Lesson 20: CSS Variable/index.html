@@ -14,6 +14,7 @@
         <h1>Header</h1>
         <nav>
           <h2>Nav</h2>
+          <button id="toggle-theme-btn">Dark mode</button>
         </nav>
     </header>
 
@@ -39,3 +40,13 @@
 </body>
 
 </html>
+<script>
+
+  const toggleThemeBtn = document.getElementById('toggle-theme-btn');
+  const htmlEl = document.querySelector('html');
+
+  toggleThemeBtn.addEventListener('click', () => {
+    htmlEl.classList.toggle('dark-mode');
+  });
+
+</script>

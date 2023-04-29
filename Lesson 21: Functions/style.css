@@ -12,7 +12,7 @@
 :root {
   /* FONT */
   --FF: "Nunito", sans-serif;
-  --FS: 1.5rem;
+  --FS: max(1.75rem, 3vh);
   --FS-XL: 3rem;
 
   /* COLORS */
@@ -85,20 +85,23 @@ header {
 nav {
   background-color: var(--LIGHT-COLOR);
   color: var(--DARK-COLOR);
-  padding: var(--PADDING);
   border-bottom: var(--BORDERS);
   box-shadow: var(--SHADOWS);
 }
 
 main {
   flex-grow: 1;
-
-  padding: 10px 0;
+  padding: var(--PADDING);
+  /* padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  gap: min(4vw, 15px);
+  gap: min(4vw, 15px); */
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
 }
 
 footer {

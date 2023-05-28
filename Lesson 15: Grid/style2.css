@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "side content content"
+    "footer footer footer";
+    grid-template-rows: 30px auto 30px;
+}
+
+header {
+  grid-area: header;
+  background-color: rgb(128, 127, 127);
+}
+
+article {
+  grid-area: content;
+  background-color: rgb(170, 164, 164);
+  height: 100vh;
+}
+
+aside {
+  grid-area: side;
+  background-color: rgb(80, 79, 79);
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(101, 82, 82);
+  position: sticky;
+  bottom: 0;
+}

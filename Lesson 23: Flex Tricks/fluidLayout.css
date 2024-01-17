@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.name {
+  /* Three values: flex-grow | flex-shrink | flex-basis */
+  flex: 1 0 300;
+}
+
+.age {
+  /* Three values: flex-grow | flex-shrink | flex-basis */
+  flex: 1 0 300;
+}
+
+button {
+  flex: 1 0 70px;
+  background-color: brown;
+}

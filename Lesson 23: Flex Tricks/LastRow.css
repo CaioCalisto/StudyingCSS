@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;  
+}
+
+#parent {
+  font-size: 0;
+}
+
+.child {
+  display: inline-block;
+  height: 50px;
+  font-size: 1rem;
+  background: red;
+  flex: 1;
+  min-width: 25%;
+  border: 5px solid white;
+}

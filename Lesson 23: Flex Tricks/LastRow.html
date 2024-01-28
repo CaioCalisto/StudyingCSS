@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="LastRow.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <button onclick="addChild()">Add Child</button>
+  <br>
+  <div class="parent">
+    
+  </div>
+  <script>
+    function addChild() {
+        $(".parent").append("<div class='child'></div>");
+        fixErAllUpThere();
+      }
+  
+      function fixErAllUpThere() {
+        var leftovers = $(".child").removeAttr("style").length % 4;
+  
+        if (leftovers > 0) {
+          var newWidth = 100 / leftovers;
+          var fromHere = $(".child").length - leftovers + 1;
+          $(".child:nth-child(n+" + fromHere + ")").css("width", newWidth + "%");
+        }
+      }
+  
+      fixErAllUpThere();
+    </script>
+</body>
+</html>
